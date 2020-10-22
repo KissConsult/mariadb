@@ -151,10 +151,10 @@ $ kubectl get service -n NAMESPACE
 ![get-service](/get-service.png)
 
 
-* Enter your pod with bash
+* Enter your pod with bash , please replace PODNAME with your mariadb pod's name
 
  ```sh
-$ kubectl exec --stdin --tty mariadb2f-c27f-41-0 -n NAMESPACE -- /bin/bash
+$ kubectl exec --stdin --tty PODNAME -n NAMESPACE -- /bin/bash
 ```
 ![bash](/bash.png)
 
