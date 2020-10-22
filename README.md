@@ -74,7 +74,7 @@ We will deploy  MariaDB on our cluster
 * Click the **Catalog** button on the top 
 * Select **Software** from the catalog
 * Search for **MariaDB** and click on it
-![postg](/search.png)
+![search](/search.png)
 
 * Please select IBM Kubernetes Service
 ![target](/target-select.png)
@@ -142,7 +142,7 @@ $ kubectl get ns
  ```sh
 $ kubectl get pod -n NAMESPACE -o wide 
 ```
-![get-pod](/get-pod.png)
+![get-pod](/get-pods.png)
 
 
  ```sh
